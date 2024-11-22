@@ -60,6 +60,8 @@ This node currently only has two topics of interest:
 
 ## Docker Integration
 
+We didn't try Docker Integration, it would be a good option to try.
+
 ### VSCode
 
 The easiest way to use docker while still using an IDE is to use VSCode as an IDE. Follow the steps below to develop on this repo in a docker container
