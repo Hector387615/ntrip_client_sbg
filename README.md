@@ -33,6 +33,8 @@ The following command will launch the node. Keep in mind each instance needs to 
 ```bash
 roslaunch ntrip_client ntrip_client.launch
 ```
+example:
+roslaunch ntrip_client ntrip_client.launch host:=___.___.___.__ port:=____ mountpoint:=QUERETARO-32 authenticate:=true username:=________ password:=_______ rtcm_message_packege:=rtcm_msgs
 
 Optional launch parameters:
 - **host**: Hostname or IP address of the NTRIP server to connect to.
